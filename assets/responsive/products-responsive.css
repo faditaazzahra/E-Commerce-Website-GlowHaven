@@ -1,0 +1,156 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        width: 45%;
+        max-width: none;
+    }
+
+    .newsletter-form input[type="email"], 
+    .newsletter-form button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Display the hamburger icon */
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        color: black;
+        padding-right: 20px;
+    }
+
+    /* Initially hide the menu */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #f4acb7;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    /* Show the menu when the hamburger is clicked (checkbox hack) */
+    .nav-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        width: 45%;
+        max-width: none;
+    }
+
+    .newsletter-form input[type="email"], 
+    .newsletter-form button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjust the hamburger size */
+    .hamburger {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        width: 100%; /* Full width */
+        top: 50px;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+    
+    .category {
+        border: 1px solid #f4acb7;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .category img {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    
+    .category-info {
+        background-color: #f4acb7;
+        padding: 5px;
+    }
+}

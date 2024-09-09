@@ -1,0 +1,208 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        width: 45%;
+        max-width: none;
+    }
+
+    .newsletter-form input[type="email"], 
+    .newsletter-form button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Display the hamburger icon */
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        color: black;
+        padding-right: 20px;
+    }
+
+    /* Initially hide the menu */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #f4acb7;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    /* Show the menu when the hamburger is clicked (checkbox hack) */
+    .nav-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+    .collaborations-hero h1 {
+        font-size: 32px;
+    }
+
+    .collaborations-hero p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    /* Collaboration Items */
+    .collaborations-content .container {
+        padding: 20px;
+    }
+
+    .collaboration-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .collaboration-item img {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .collaboration-info h2 {
+        font-size: 24px;
+    }
+
+    .collaboration-info p {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        width: 45%;
+        max-width: none;
+    }
+
+    .newsletter-form input[type="email"], 
+    .newsletter-form button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjust the hamburger size */
+    .hamburger {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        width: 100%; /* Full width */
+        top: 50px;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .collaborations-hero h1 {
+        font-size: 28px;
+    }
+
+    .collaborations-hero p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    /* Collaboration Items */
+    .collaborations-content .container {
+        padding: 10px;
+    }
+
+    .collaboration-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .collaboration-item img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .collaboration-info h2 {
+        font-size: 20px;
+    }
+
+    .collaboration-info p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:360px) {
+    .collaborations-content .container {
+        display: block;
+    }
+}
